@@ -49,7 +49,7 @@ require("vendor/autoload.php");
 						if ( $count < 3 ) { ?>
 				<div class="insta-box">
 					<img src="img/insta-header.png" class="insta-header" />
-					<a href="<?php print $insta->link; ?>"><img src="<?php print $insta->thumbnails[4]->src ?>" class="insta-photo" /></a>
+					<a href="<?php print $insta->link; ?>" target="_blank"><img src="<?php print $insta->thumbnails[4]->src ?>" class="insta-photo" /></a>
 					<img src="img/insta-icons.png" class="insta-icons" />
 					<div class="insta-caption"><?php print $insta->caption ?></div>
 				</div>
