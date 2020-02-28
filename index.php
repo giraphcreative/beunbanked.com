@@ -28,7 +28,7 @@ require("vendor/autoload.php");
 	<main class="container">
 		
 		<header class="wrap">
-			<a href="https://www.cgfcu.org/" target="_blank"><img src="img/header.jpg" class="header"></a>
+			<a href="https://www.cgfcu.org/" target="_blank"><img src="img/header.jpg?v=1" class="header"></a>
 		</header>
 		
 		<div class="wrap">	
