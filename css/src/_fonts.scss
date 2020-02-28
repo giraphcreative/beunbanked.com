@@ -1,0 +1,97 @@
+
+
+// include our fonts
+@font-face {
+    font-family: 'Avenir';
+    src: url('fonts/avenir.eot');
+    src: url('fonts/avenir.eot?#iefix') format('embedded-opentype'),
+        url('fonts/avenir.woff2') format('woff2'),
+        url('fonts/avenir.woff') format('woff'),
+        url('fonts/avenir.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Demi';
+    src: url('fonts/avenir-demi.eot');
+    src: url('fonts/avenir-demi.eot?#iefix') format('embedded-opentype'),
+        url('fonts/avenir-demi.woff2') format('woff2'),
+        url('fonts/avenir-demi.woff') format('woff'),
+        url('fonts/avenir-demi.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Italic';
+    src: url('fonts/avenir-italic.eot');
+    src: url('fonts/avenir-italic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/avenir-italic.woff2') format('woff2'),
+        url('fonts/avenir-italic.woff') format('woff'),
+        url('fonts/avenir-italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avenir Demi Italic';
+    src: url('fonts/avenir-demi-it.eot');
+    src: url('fonts/avenir-demi-it.eot?#iefix') format('embedded-opentype'),
+        url('fonts/avenir-demi-it.woff2') format('woff2'),
+        url('fonts/avenir-demi-it.woff') format('woff'),
+        url('fonts/avenir-demi-it.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gloss And Bloom';
+    src: url('fonts/gloss-bloom.eot');
+    src: url('fonts/gloss-bloom.eot?#iefix') format('embedded-opentype'),
+        url('fonts/gloss-bloom.woff2') format('woff2'),
+        url('fonts/gloss-bloom.woff') format('woff'),
+        url('fonts/gloss-bloom.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+// sans-serif mixin
+@mixin font-title {
+    font-family: "Avenir Demi", sans-serif;
+}
+
+// sans-serif mixin
+@mixin font {
+	font-family: "Avenir", sans-serif;
+}
+
+// bold italic
+@mixin font-italic {
+    font-family: "Avenir Italic", sans-serif;
+}
+
+// bold face
+@mixin font-demi {
+	font-family: "Avenir Demi", sans-serif;
+}
+
+// bold italic
+@mixin font-demi-italic {
+    font-family: "Avenir Demi Italic", sans-serif;
+}
+
+@mixin font-gloss {
+    font-family: "Gloss And Bloom", serif;
+}
+
+.font-gloss {
+    @include font-gloss;
+    color: $lime;
+
+    &.community {
+        color: $teal;
+    }
+}
+
