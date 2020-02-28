@@ -10,7 +10,7 @@ require("vendor/autoload.php");
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="css/main.css?v=2">
+	<link rel="stylesheet" href="css/main.css?v=3">
 	<script src="js/head.js"></script>
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -28,7 +28,7 @@ require("vendor/autoload.php");
 	<main class="container">
 		
 		<header class="wrap">
-			<a href="https://www.cgfcu.org/" target="_blank"><img src="img/header.jpg?v=1" class="header"></a>
+			<a href="https://www.cgfcu.org/" target="_blank"><img src="img/header.jpg?v=2" class="header"></a>
 		</header>
 		
 		<div class="wrap">	
@@ -77,7 +77,7 @@ require("vendor/autoload.php");
 		</div>
 	
 		<div class="bg-lime">
-			<img src="img/title-unbank.jpg" alt="Unbank yourself" />
+			<img src="img/title-unbank.jpg?v=2" alt="Unbank yourself" />
 		</div>
 		<div class="wrap">	
 			<div class="content">
@@ -106,7 +106,7 @@ require("vendor/autoload.php");
 		-->
 	
 		<div id="connect" class="bg-grey-light">
-			<img src="img/title-connect.jpg" alt="Unanswered questions? Let's connect." />
+			<img src="img/title-connect.jpg?v=2" alt="Unanswered questions? Let's connect." />
 		</div>
 		<div class="bg-lime bg-swirl-darken contact">
 			<div class="wrap content">
