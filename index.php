@@ -35,7 +35,7 @@ require("vendor/autoload.php");
 			<div class="content group">
 	
 				<img src="img/title-funsquad.jpg" alt="Follow the Fun Squad!" />
-				<p>The Fun Squad has hit the streets to make our community better. Follow the Fun Squad to see where they will bring the fun next:</p>
+				<p>The Fun Squad has hit the streets to make our community better. <a href="https://www.instagram.com/columbiagreenefcu/">Follow the Fun Squad</a> to see where they will bring the fun next.</p>
 				<?php
 				/*
 				$cache = new Instagram\Storage\CacheManager('.cache/');
