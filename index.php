@@ -37,6 +37,7 @@ require("vendor/autoload.php");
 				<img src="img/title-funsquad.jpg" alt="Follow the Fun Squad!" />
 				<p>The Fun Squad has hit the streets to make our community better. Follow the Fun Squad to see where they will bring the fun next:</p>
 				<?php
+				/*
 				$cache = new Instagram\Storage\CacheManager('.cache/');
 				$api   = new Instagram\Api($cache);
 				$api->setUserName('columbiagreenefcu');
@@ -58,6 +59,7 @@ require("vendor/autoload.php");
 						$count++;
 					}
 				}
+				*/
 				?>
 
 			</div>
